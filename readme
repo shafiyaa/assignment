@@ -1,0 +1,10 @@
+Food Product Explorer
+
+
+The home page is divided into two main parts: the top section features the project name and a search functionality that allows users to filter products displayed on the screen using the include method of strings. The bottom section is further divided into two areas: one for categories and sorting, and the other for displaying products.
+
+To manage categories and sorting, I created a constant data structure that helps sort or filter products based on the selected category. Upon loading the homepage, random products are fetched from the API. I organized the API calls in a separate folder dedicated solely to this purpose, ensuring that all API logic is centralized.
+
+For data management, I utilized Redux Toolkit to store the fetched product data in a product slice, which is then displayed in the UI. When users click on a product card, they are directed to a dedicated product page that provides detailed information about the selected item. I used React Router DOM for page navigation and Tailwind CSS to ensure a responsive and visually appealing design throughout the application.
+
+I started this project on September 25 and completed it on September 30.
